@@ -33,6 +33,8 @@ public:
 
     const string &getDescription() const;
 
+    void setNbexemplaires(int nbexemplaires);
+
 
 };
 

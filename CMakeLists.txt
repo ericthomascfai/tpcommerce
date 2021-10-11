@@ -3,4 +3,4 @@ project(tpcommerce)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(tpcommerce main.cpp Produit.cpp Produit.h)
+add_executable(tpcommerce main.cpp Produit.cpp Produit.h Magasin.cpp Magasin.h)

@@ -44,4 +44,8 @@ const string &Produit::getDescription() const {
     return description;
 }
 
+void Produit::setNbexemplaires(int nbexemplaires) {
+    Produit::nbexemplaires = nbexemplaires;
+}
+
 
