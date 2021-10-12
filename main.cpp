@@ -2,6 +2,7 @@
 #include "Produit.h"
 #include "Magasin.h"
 #include "Livre.h"
+#include "Cd.h"
 
 int main() {
     /*Produit p=Produit("ajax",1,2);
@@ -12,7 +13,7 @@ int main() {
     cout<<p.getNbexemplaires()<<endl;
     p.diminuerQuantité(1);
     cout<<p.getNbexemplaires()<<endl;*/
-    Magasin m=Magasin();
+    /*Magasin m=Magasin();
     m.ajouterProduit("Mir",1,4);
     m.bilan();
     m.acheterProduit(0,2);
@@ -22,7 +23,11 @@ int main() {
     m.bilan();
     cout<<m.getSolde()<<endl;
     Livre l=Livre("Livre de la jungle",2,4,"Phil","Disney");
-    l.afficherDescription();
-
+    l.afficherDescription();*/
+    vector<string> liste;
+    liste.push_back("titre1");
+    liste.push_back("titre2");
+    Cd moncd=Cd("album1",2,5,"auteur1","interprete1",liste);
+    moncd.afficherDescription();
     return 0;
 }
