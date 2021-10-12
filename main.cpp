@@ -21,13 +21,20 @@ int main() {
     cout<<m.getSolde()<<endl;
     m.vendreProduit(0,1);
     m.bilan();
-    cout<<m.getSolde()<<endl;
-    Livre l=Livre("Livre de la jungle",2,4,"Phil","Disney");
-    l.afficherDescription();*/
+    cout<<m.getSolde()<<endl;*/
+    /*Livre l=Livre("Livre de la jungle",2,4,"Phil","Disney");
+    l.afficherDescription();
     vector<string> liste;
     liste.push_back("titre1");
     liste.push_back("titre2");
     Cd moncd=Cd("album1",2,5,"auteur1","interprete1",liste);
-    moncd.afficherDescription();
+    moncd.afficherDescription();*/
+    vector<string> liste;
+    liste.push_back("titre1");
+    liste.push_back("titre2");
+    Magasin m=Magasin();
+    m.ajouterCD("album1",2,5,"auteur1","interprete1",liste);
+    m.ajouterLivre("Livre de la jungle",2,4,"Phil","Disney");
+    m.bilan();
     return 0;
 }

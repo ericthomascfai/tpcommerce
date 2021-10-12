@@ -17,6 +17,9 @@ private:
 public:
     Magasin();
     void ajouterProduit(const string &nom, const float prixachat,const float prixvente);
+    void ajouterCD(const string &nom, const float prixachat, const float prixvente, const string &auteur, const string &interpretre,
+    const vector<string> &listeTitre);
+    void ajouterLivre(const string &nom,int prixachat,int prixvente, const string auteur,const string editeur);
     void acheterProduit(const int reference,const int nombreexemplaires);
     void vendreProduit(const int reference,const int nombreexemplaires);
     void bilan();
