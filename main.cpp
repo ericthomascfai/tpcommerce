@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Produit.h"
 #include "Magasin.h"
+#include "Livre.h"
 
 int main() {
     /*Produit p=Produit("ajax",1,2);
@@ -20,6 +21,8 @@ int main() {
     m.vendreProduit(0,1);
     m.bilan();
     cout<<m.getSolde()<<endl;
+    Livre l=Livre("Livre de la jungle",2,4,"Phil","Disney");
+    l.afficherDescription();
 
     return 0;
 }

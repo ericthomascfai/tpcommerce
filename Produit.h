@@ -18,7 +18,7 @@ private:
     string description;
 public:
     Produit(const string &nom,const float prixachat,const float prixvente);
-    void afficherDescription();
+    virtual void afficherDescription();
     void editerProduit(const string &newdescription);
     void augmenterQuantité(const int qte);
     void diminuerQuantité(const int qte);
@@ -31,7 +31,7 @@ public:
 
     int getNbexemplaires() const;
 
-    const string &getDescription() const;
+     const string &getDescription() const;
 
     void setNbexemplaires(int nbexemplaires);
 
