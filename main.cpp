@@ -29,12 +29,14 @@ int main() {
     liste.push_back("titre2");
     Cd moncd=Cd("album1",2,5,"auteur1","interprete1",liste);
     moncd.afficherDescription();*/
-    vector<string> liste;
+    /*vector<string> liste;
     liste.push_back("titre1");
     liste.push_back("titre2");
     Magasin m=Magasin();
     m.ajouterCD("album1",2,5,"auteur1","interprete1",liste);
     m.ajouterLivre("Livre de la jungle",2,4,"Phil","Disney");
-    m.bilan();
+    m.bilan();*/
+    Magasin m=Magasin();
+    m.interaction();
     return 0;
 }

@@ -28,7 +28,19 @@ public:
 
     const vector<Produit> &getStock() const;
 
+    vector<string> saisielistetitre();
 
+    float saisieprix(const string &type);
+
+    const string saisieinformation(const string &type);
+
+    int choixproduit(const string &type);
+
+    void interaction();
+
+    void submenu(const string &type);
+
+    int choixqte();
 };
 
 
